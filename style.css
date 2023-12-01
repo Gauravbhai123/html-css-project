@@ -1,0 +1,340 @@
+* {
+       box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+}
+body {
+       background-color: rgb(76, 208, 252);
+}
+.container1 {
+       width: 54%;
+       height: 76vh;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       right: -115px;
+       top: 70px;
+       margin: auto;
+       background-color: whitesmoke;
+       border-top-right-radius: 18px;
+       border-bottom-right-radius: 18px;
+       box-shadow: -1px -1px 16px 5px rgba(34, 0, 136, 0.51);
+       -webkit-box-shadow: -1px -1px 16px 5px rgba(34, 0, 136, 0.51);
+       -moz-box-shadow: -1px -1px 16px 5px rgba(34, 0, 136, 0.51);
+}
+.container {
+       padding-left: 4%;
+       width: 50%;
+       display: block;
+       position: relative;
+       left: 25px;
+}
+.container input {
+       margin-left: 11%;
+}
+h1 {
+       text-align: center;
+       color: blue;
+       font-size: 223%;
+       font-weight: bolder;
+       word-spacing: 4px;
+}
+p {
+       text-align: center;
+       font-size: 13px;
+}
+input {
+       margin: 0.25em 3em -15% 0em;
+}
+.btn:hover {
+       background-color: #8006b1;
+}
+.btn:focus {
+       border: 2px solid rgb(236, 161, 22);
+}
+.btn {
+       margin-top: 8%;
+       margin-left: 10%;
+       width: 82%;
+       padding-left: 30px;
+       padding-top: 9px;
+       padding-bottom: 9px;
+       border-radius: 8px;
+       background-color: darkblue;
+       color: white;
+       font-size: large;
+       font-weight: bold;
+       cursor: pointer;
+}
+.btn2:hover{
+       background-color: #3b5998;
+       color: aliceblue;
+}
+.btn1:hover{
+  background: #dd4b39;
+    color: white;
+}
+input[name] {
+       width: 80%;
+       padding-left: 30px;
+       padding-top: 9px;
+       padding-bottom: 9px;
+       border-radius: 8px;
+       cursor: pointer;
+}
+.span2 {
+       color: blue;
+       cursor: pointer;
+}
+#img-1 {
+       height: 100%;
+       margin-left: -48%;
+       border-top-left-radius: 18px;
+       border-bottom-left-radius: 18px;
+}
+.span1 {
+       display: flex;
+       justify-content: center
+}
+.btn1 {
+       font-weight: bolder;
+       border-radius: 5px;
+       margin-right: 20px;
+       padding-top: 3px;
+       padding-bottom: 3px;
+       padding-left: 20px;
+       padding-right: 15px;
+       cursor: pointer;
+}
+.btn2 {
+       font-weight: bolder;
+       margin-left: 14px;
+       border-radius: 5px;
+       padding-top: 1%;
+       padding-bottom: 1%;
+       padding-left: 5%;
+       padding-right: 3%;
+       cursor: pointer;
+}
+svg {
+       position: relative;
+       top: 7%;
+       left: 13%;
+}
+.google {
+       position: relative;
+       left: -11%;
+       top: 12%;
+}
+.facebook {
+       position: relative;
+       left: -11%;
+       top: 12%;
+}
+input[type="name"] {
+       width: 80%;
+       -webkit-transition: width .35s ease-in-out;
+       transition: width .35s ease-in-out;
+}
+input[type="name"]:focus {
+       width: 370px;
+}
+input[type="email"] {
+       width: 80%;
+       -webkit-transition: width .35s ease-in-out;
+       transition: width .35s ease-in-out;
+}
+input[type="email"]:focus {
+       width: 370px;
+}
+input[type="phone"] {
+       width: 80%;
+       -webkit-transition: width .35s ease-in-out;
+       transition: width .35s ease-in-out;
+}
+input[type="phone"]:focus {
+       width: 370px;
+}
+input[type="password"] {
+       width: 80%;
+       -webkit-transition: width .35s ease-in-out;
+       transition: width .35s ease-in-out;
+}
+input[type="password"]:focus {
+       width: 370px;
+}
+@media screen and (max-width:768px) {
+       .container1 {
+              width: 62%;
+              padding-right: 40px;
+       }
+       .container {
+              position: relative;
+              left: -10px;
+       }
+       svg {
+              position: relative;
+              top: 20px;
+              left: 14px;
+              z-index: 5;
+       }
+       input {
+              position: relative;
+              top: -15px;
+              left: -18px;
+       }
+       #name {
+              width: 99%;
+       }
+       #phone {
+              width: 99%;
+       }
+       #email {
+              width: 99%;
+       }
+       #password {
+              width: 99%;
+       }
+       input[name] {
+              width: 170%;
+              padding-right: -90px;
+       }
+       h1 {
+              font-size: 36px;
+       }
+       p {
+              font-size: 20px;
+       }
+       svg {
+              position: relative;
+              top: 20px;
+              left: 14px;
+              z-index: 5;
+       }
+       #img-1 {
+              width: 84%;
+              padding-right: -60px;
+              position: relative;
+              left: -63px;
+       }
+       .btn1 {
+              border-radius: 10px;
+              padding-left: 20px;
+              padding-right: 20px;
+              cursor: pointer;
+       }
+
+       .btn2 {
+              border-radius: 10px;
+              padding-left: 10%;
+              padding-right: 10%;
+              cursor: pointer;
+              margin-left: 1px;
+       }
+       .btn {
+              width: 100%;
+              margin-left: 1%;
+       }
+}
+@media screen and (min-width:480px) and (max-width:559px) {
+       .container1 {
+              padding-right: 60px; 
+       }
+       .container{
+              width: 90%;
+              height: 40%;
+       }
+}
+@media screen and (max-width:600px) {
+       #img-1{
+           padding-right: -150px;
+       }
+       #name{
+              width: 133%;
+       }
+       #email{
+              width: 133%;
+       }
+       #phone{
+              width: 133%;
+       }
+       #password{
+              width: 133%;
+       }
+       .btn{
+             width: 130%;
+       }
+       svg {
+              position: relative;
+              top: 20px;
+              left: 4px;
+          }
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+           #img-1{
+                position: relative;
+                top: -70%;
+                left: 48%;
+                width: 100%;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+           }
+           .container{
+              position: relative;
+              top: 40%;
+              left: -30%;
+              width: 90%;
+              height: 30vh;
+             
+           }
+           .container1{
+              width: 90%;
+              position: relative;
+              top: 500px;
+              right: 1%;
+              border-radius: none;
+              border-bottom-right-radius: 0px;
+           }
+           #name{
+              padding: 15px;
+              padding-left: 30px;
+              padding-right: 30px;
+              width: 110%;
+           }
+           #email{
+              padding: 15px;
+              padding-left: 30px;
+              padding-right: 30px;
+              width: 110%;
+           }
+           #phone{
+              padding: 15px;
+              padding-left: 30px;
+              padding-right: 30px;
+              width: 110%;
+           }
+           #password{
+              padding: 15px;
+              padding-left: 30px;
+              padding-right: 30px;
+              width: 110%;
+           }
+           .btn{
+              padding: 15px;
+              padding-left: 30px;
+              padding-right: 30px;
+              width: 110%;
+           }
+           svg{
+              position: relative;
+              top: 35px;
+           }
+   }
+   @media screen and (min-device-width: 1025px) and (max-device-width: 2000px) { 
+        #img-1{
+               width: 73%;
+        }
+      svg{
+       top: 30px;
+      }
+   }
+  
